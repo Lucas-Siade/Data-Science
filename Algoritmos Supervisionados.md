@@ -138,4 +138,78 @@ O **Support Vector Machine** é um algoritmo que pode ser aplicado tanto para **
 * **Bioinformática**
 * **Classificação de Imagens**
 
-🔗 Referências
+<br>
+
+## 🧠 Rede Neural Artificial
+
+### ⚙️ Principais Características
+A **Rede Neural Artificial** é um algoritmo inspirado no funcionamento do cérebro humano. Ela simula a estrutura de neurônios biológicos por meio de camadas interconectadas, nas quais os "neurônios" artificiais são ativados com base em pesos ajustáveis. Durante o treinamento, esses pesos são modificados iterativamente até que o modelo aprenda padrões e produza previsões com a menor margem de erro possível.
+
+### ✅ Vantagens
+* **Alto Poder de Modelagem:** Consegue aprender relações não lineares complexas e até resolver problemas difíceis, como reconhecimento de imagem ou interpretação de linguagem natural.
+
+* **Ajustável a Diversos Cenários:** Pode ser aplicado em tarefas de classificação, regressão, detecção de anomalias, entre outras.
+
+* **Capacidade de Autoajuste:** Utiliza algoritmos como o Backpropagation para ajustar seus parâmetros automaticamente durante o treinamento.
+
+### ❌ Desvantagens
+* **Caixa-Preta:** É difícil interpretar como a rede tomou determinada decisão, especialmente em redes profundas.
+
+* **Treinamento Demorado:** Pode exigir muito tempo e poder computacional, especialmente com conjuntos grandes e redes profundas.
+
+* **Risco de Overfitting:** Modelos muito grandes podem aprender os ruídos do treino se não forem bem regulados.
+
+* **Necessidade de Dados em Grande Escala:** Desempenha melhor com grandes volumes de dados. Conjuntos pequenos podem limitar seu poder.
+
+### 🎯 Principais Aplicações
+* Previsão de Séries Temporais:
+* Reconhecimento de Imagens:
+* Processamento de Linguagem Natural (NLP):
+* Veículos Autônomos:
+
+<br>
+
+## 🔗 Referências
+
+### 📚 Conceitos Gerais de Aprendizado Supervisionado
+* [IBM - Supervised Learning](https://www.ibm.com/br-pt/topics/supervised-learning)
+* [Deep Learning Book](https://www.deeplearningbook.com.br/)
+
+---
+
+### 📏 Regressão Linear
+* [IBM - Regressão Linear](https://www.ibm.com/br-pt/topics/linear-regression)
+
+---
+
+### 🔢 Regressão Logística
+* [IBM - Regressão Logística](https://www.ibm.com/br-pt/topics/logistic-regression)
+* [IBM Docs - SPSS Logística](https://www.ibm.com/docs/pt-br/spss-statistics/saas?topic=regression-logistic)
+* [UCI - German Credit Data](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
+
+---
+
+### 📍 K-Nearest Neighbor (KNN)
+* [IBM - KNN](https://www.ibm.com/think/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20(KNN)%20algorithm%20is%20a%20non,used%20in%20machine%20learning%20today.)
+* [Kaggle - Iris Dataset](https://www.kaggle.com/datasets/uciml/iris)
+
+---
+
+### 🌲 Random Forest
+* [Medium - Como funciona o Random Forest](https://medium.com/cinthiabpessanha/random-forest-como-funciona-um-dos-algoritmos-mais-populares-de-ml-cc1b8a58b3b4)
+* [YouTube - How to Build a Random Forest Classification Model](https://www.youtube.com/watch?v=XnyYkxT_XgY)
+* [Kaggle - Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+* [EBAC - O que é Random Forest ?](https://ebaconline.com.br/blog/random-forest-seo)
+
+---
+
+### ⚡ Support Vector Machine (SVM)
+* [IBM - Support Vector Machine](https://www.ibm.com/br-pt/think/topics/support-vector-machine)
+* [Scikit-learn - SVM](https://scikit-learn.org/stable/modules/svm.html)
+
+---
+
+### 🧠 Rede Neural Artificial
+* [IBM - Redes Neurais](https://www.ibm.com/br-pt/think/topics/neural-networks)
+* [Scikit-learn - Redes Neurais Supervisionadas](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
+* [Kaggle - Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
