@@ -140,6 +140,32 @@ O **Support Vector Machine** é um algoritmo que pode ser aplicado tanto para **
 
 <br>
 
+## 📈 Gradient Boosting
+
+### ⚙️ Principais Características
+O **Gradient Boosting** é um algoritmo de aprendizado baseado em árvores de decisão. Ele funciona construindo modelos de forma sequencial, onde cada novo modelo tenta corrigir os erros cometidos pelos anteriores. Esse processo é guiado pelo gradiente do erro, que indica a direção de melhoria para minimizar a perda do modelo.
+
+### ✅ Vantagens
+* **Alta Precisão:** Um dos algoritmos mais eficazes em tarefas estruturadas.
+
+* **Modelo Flexível:** Pode ser usado para Classificação, Regressão e Ranking.
+
+* **Importância das Variáveis:** Permite visualizar quais variáveis têm mais influência na decisão.
+
+### ❌ Desvantagens
+* **Tempo de Treinamento:** Tem um treinamento mais lento por construir modelos sequencialmente.
+
+* **Sensível a Hiperparâmetros:** Requer ajuste cuidadoso do número de árvores, profundidade e taxa de aprendizado para funcionar bem.
+
+* **Menos Eficiente em Dados Não Estruturados:** Não é ideal para imagens, áudio ou texto puro.
+
+### 🎯 Principais Aplicações
+* **Problemas Tabulares em Geral**
+* **Previsão de Risco de Crédito**
+* **Rotatividade de Clientes**
+
+<br>
+
 ## 🧠 Rede Neural Artificial
 
 ### ⚙️ Principais Características
@@ -162,10 +188,36 @@ A **Rede Neural Artificial** é um algoritmo inspirado no funcionamento do cére
 * **Necessidade de Dados em Grande Escala:** Desempenha melhor com grandes volumes de dados. Conjuntos pequenos podem limitar seu poder.
 
 ### 🎯 Principais Aplicações
-* Previsão de Séries Temporais:
-* Reconhecimento de Imagens:
-* Processamento de Linguagem Natural (NLP):
-* Veículos Autônomos:
+* **Previsão de Séries Temporais**
+* **Reconhecimento de Imagens**
+* **Processamento de Linguagem Natural (NLP)**
+* **Veículos Autônomos**
+
+<br> 
+
+## 🔁 LSTM (Long Short-Term Memory)
+
+### ⚙️ Principais Características
+A **LSTM** é um tipo de rede neural recorrente (RNN) projetada para aprender dependências temporais de longo prazo. Ela é especialmente eficaz para dados sequenciais, pois consegue "lembrar" informações importantes por longos períodos.
+
+### ✅ Vantagens
+* **Memória de Longo Prazo:** Consegue capturar padrões temporais que dependem de eventos passados distantes na sequência.
+
+* **Boa para Séries Temporais:** Ideal para prever valores futuros com base em sequências históricas, como clima e finanças.
+
+* **Pode Ser Combinada com Outras Camadas:** LSTM pode ser usada junto com camadas Dense, Dropout ou CNNs para tarefas mais robustas.
+
+### ❌ Desvantagens
+* **Treinamento Mais Lento:** Exige mais tempo e recursos computacionais que modelos tradicionais.
+
+* **Mais Complexa de Ajustar:** Possui hiperparâmetros como número de neurônios, tamanho da janela e número de camadas.
+
+* **Difícil de Interpretar:** Apesar de mais transparente que outras redes profundas, ainda não é totalmente explicável.
+
+### 🎯 Principais Aplicações
+* **Previsão de Séries Temporais**
+* **Detecção de Anomalias em Sequências**
+* **Modelagem de Linguagem Natural**
 
 <br>
 
@@ -198,14 +250,23 @@ A **Rede Neural Artificial** é um algoritmo inspirado no funcionamento do cére
 ### 🌲 Random Forest
 * [Medium - Como funciona o Random Forest](https://medium.com/cinthiabpessanha/random-forest-como-funciona-um-dos-algoritmos-mais-populares-de-ml-cc1b8a58b3b4)
 * [YouTube - How to Build a Random Forest Classification Model](https://www.youtube.com/watch?v=XnyYkxT_XgY)
-* [Kaggle - Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
 * [EBAC - O que é Random Forest ?](https://ebaconline.com.br/blog/random-forest-seo)
+* [Kaggle - Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
 
 ---
 
 ### ⚡ Support Vector Machine (SVM)
 * [IBM - Support Vector Machine](https://www.ibm.com/br-pt/think/topics/support-vector-machine)
 * [Scikit-learn - SVM](https://scikit-learn.org/stable/modules/svm.html)
+* [Kaggle - Iris Dataset](https://www.kaggle.com/datasets/uciml/iris)
+
+---
+
+### 📈 Gradient Boosting
+* [Scikit-learn - Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html#)
+* [Scikit-learn - GradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+* [Google Developers - Introdução ao GBDT](https://developers.google.com/machine-learning/decision-forests/intro-to-gbdt?hl=pt-br)
+* [UCI - Wine Dataset](https://archive.ics.uci.edu/dataset/109/wine)
 
 ---
 
@@ -213,3 +274,10 @@ A **Rede Neural Artificial** é um algoritmo inspirado no funcionamento do cére
 * [IBM - Redes Neurais](https://www.ibm.com/br-pt/think/topics/neural-networks)
 * [Scikit-learn - Redes Neurais Supervisionadas](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
 * [Kaggle - Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+
+---
+
+### 🔁 LSTM (Long Short-Term Memory)
+* [Wikipédia - Long Short-Term Memory (LSTM)](https://pt.wikipedia.org/wiki/Long_short-term_memory)
+* [Didática Tech - LSTM (Long Short-Term Memory)](https://didatica.tech/lstm-long-short-term-memory/)
+* [Daily Minimum Temperatures Dataset (jbrownlee)](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv)
